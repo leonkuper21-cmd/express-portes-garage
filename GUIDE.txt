@@ -1,0 +1,17 @@
+
+GITHUB PAGES — FREE SUBDOMAIN (yourname.github.io or yourorg.github.io)
+
+1) Create a GitHub account if needed.
+2) Create a new repository named ANYTHING (e.g., garage-site). Keep it Public.
+3) Upload index.html to the repo root (or drag-and-drop).
+4) In the repo → Settings → Pages → Set "Deploy from a branch" → branch: main, folder: / (root).
+5) Wait a minute; your site will be at: https://YOUR_GITHUB_USERNAME.github.io/REPO_NAME/
+   - If you name the repo YOUR_GITHUB_USERNAME.github.io, your site will be at https://YOUR_GITHUB_USERNAME.github.io/
+
+Contact form:
+- Default is mailto:. For a backend without code, use Formspree:
+  1) Create a form at https://formspree.io/
+  2) Replace the form's action with your Formspree endpoint and set method="POST".
+
+Payments & Analytics:
+- Click ⚙️ (bottom-right) on your live site to paste Stripe/PayPal links and GA4 ID.
